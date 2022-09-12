@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_carrinho.xml" value="0.342" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_facebook.xml" value="0.342" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_folha.xml" value="0.342" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_gota.xml" value="0.342" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_slider_two_vertical.xml" value="0.342" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_twitter.xml" value="0.342" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
