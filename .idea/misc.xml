@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable-v24/selector_shadow_edit_text.xml" value="0.2285" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/bg_menu_geral.xml" value="0.2165" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/bg_menu_geral_transparente.xml" value="0.298" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/botao_numero_clicado.xml" value="0.2285" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/cursor_custom.xml" value="0.341" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/custom_edit_text.xml" value="0.2285" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/custom_shadow_blue.xml" value="0.2285" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_carrinho.xml" value="0.342" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_facebook.xml" value="0.342" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_folha.xml" value="0.342" />
@@ -12,7 +17,9 @@
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_gota.xml" value="0.342" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_slider_two_vertical.xml" value="0.342" />
         <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/ic_twitter.xml" value="0.342" />
-        <entry key="..\:/AppPlantinhas/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/shape_numero_normal.xml" value="0.2285" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/drawable/shape_numero_selecionado.xml" value="0.2285" />
+        <entry key="..\:/AppPlantinhas/app/src/main/res/layout/activity_login.xml" value="0.3201219512195122" />
       </map>
     </option>
   </component>

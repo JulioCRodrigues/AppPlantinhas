@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/login"
+    android:layout_gravity="center"
     tools:context=".LoginActivity">
 
     <TextView
@@ -126,24 +127,22 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tplRenda"
         app:layout_constraintTop_toTopOf="@+id/txt_login"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="605dp">
 
-        <EditText
+        <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/etRenda"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="exemple.com"
             android:background="@drawable/bg_menu_geral"
             android:drawablePadding="16dp"
-            android:hint="exemple.co"
             android:inputType="number|textEmailAddress" />
 
 
@@ -153,7 +152,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/tplSenha"
         app:layout_constraintTop_toTopOf="@+id/tplRenda"
-        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
