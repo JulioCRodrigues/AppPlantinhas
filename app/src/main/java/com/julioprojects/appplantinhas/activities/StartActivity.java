@@ -1,4 +1,4 @@
-package com.julioprojects.appplantinhas;
+package com.julioprojects.appplantinhas.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 
+import com.julioprojects.appplantinhas.R;
 import com.julioprojects.appplantinhas.databinding.ActivityStartBinding;
 
 public class StartActivity extends AppCompatActivity {
@@ -40,10 +41,10 @@ public class StartActivity extends AppCompatActivity {
     }
 
     private void clicks() {
-        binding.constraintStart.setOnClickListener(new View.OnClickListener() {
+        binding.btnCircle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-             //   startActivity(new Intent(this,));
+                startActivity(new Intent(StartActivity.this, LoginActivity.class));
             }
         });
 
