@@ -1,8 +1,10 @@
-package com.julioprojects.appplantinhas;
+package com.julioprojects.appplantinhas.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.julioprojects.appplantinhas.R;
 
 public class MainActivity extends AppCompatActivity {
 
