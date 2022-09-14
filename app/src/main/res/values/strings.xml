@@ -1,12 +1,8 @@
 <resources>
     <string name="app_name">App Plantinhas</string>
     <string name="Plant_Care">App Plantinhas</string>
-    <string name="email">Email</string>
-    <string name="nome">Nome</string>
-    <string name="senha">Senha</string>
-    <string name="imagem_para_registrar">Imagem para registrar</string>
-    <string name="ex_julio_teste_com_br">Ex: julio@teste.com.br</string>
-    <string name="ex_julio_rodrigues">Ex: Julio Rodrigues</string>
-    <string name="ex_123456">Ex: 123456</string>
-    <string name="registrar">Registrar</string>
+    <string name="menu_home">Shop</string>
+    <string name="menu_search">My plants</string>
+    <string name="menu_like">Settings</string>
+    <string name="menu_profile">Settings</string>
 </resources>
