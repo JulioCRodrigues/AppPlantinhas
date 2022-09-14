@@ -85,10 +85,12 @@
         app:menu="@menu/menu" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerPlants"
+        android:id="@+id/rvProdutos"
         android:layout_width="0dp"
         android:layout_height="465dp"
         android:layout_marginStart="22dp"
+        tools:listitem="@layout/adapter_lista"
+
         android:layout_marginEnd="22dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
