@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "27751387498",
+    "project_id": "appplantinhas",
+    "storage_bucket": "appplantinhas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27751387498:android:3982a208dd52bdd59ad513",
+        "android_client_info": {
+          "package_name": "com.julioprojects.appplantinhas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27751387498-1a5hbnnda3qpoqlv4cbgnj9d41ld728s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMJIQyRVP0cpx0606o7ebatGC9Hot6Kjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27751387498-1a5hbnnda3qpoqlv4cbgnj9d41ld728s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

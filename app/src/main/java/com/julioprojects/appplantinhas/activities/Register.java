@@ -33,6 +33,8 @@ public class Register extends AppCompatActivity {
         View view = binding.getRoot();
         setContentView(view);
 
+        // Instancias
+
         // Init auth
         auth = FirebaseAuth.getInstance();
 
