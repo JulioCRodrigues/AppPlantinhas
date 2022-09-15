@@ -103,7 +103,7 @@
         app:layout_constraintTop_toBottomOf="@+id/tplSenha" />
 
     <ImageButton
-        android:id="@+id/imageButton"
+        android:id="@+id/btnLogin"
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:layout_marginTop="16dp"
@@ -137,13 +137,13 @@
         tools:layout_editor_absoluteY="605dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/etRenda"
+            android:id="@+id/edtEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="exemple.com"
             android:background="@drawable/bg_menu_geral"
             android:drawablePadding="16dp"
-            android:inputType="number|textEmailAddress" />
+            android:inputType="textEmailAddress" />
 
 
     </com.google.android.material.textfield.TextInputLayout>
@@ -163,7 +163,7 @@
         tools:layout_editor_absoluteY="605dp">
 
         <EditText
-            android:id="@+id/etSenha"
+            android:id="@+id/edtSenha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/bg_menu_geral_transparente"
