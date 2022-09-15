@@ -26,26 +26,16 @@ public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.MyViewHo
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView = LayoutInflater.from(parent.getContext()).inflate(R.layout.adapter_lista, parent, false);
         return new MyViewHolder(itemView);
-
-
     }
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
+        Produto produto = produtoList.get(position);
 
-       Produto produto = produtoList.get(position);
-
-       holder.namePlants.setText(produto.getNamePlants());
-       holder.plantType.setText(produto.getPlantType());
-       holder.plantDescription.setText(produto.getPlantDescription());
-
-
-       holder.img_moister.setImageResource(Integer.valueOf(produto.getImg_moister()));
-       holder.img_plant.setImageResource(Integer.valueOf(produto.getImg_plant()));
-
-
-
-
+        holder.namePlants.setText(produto.getNome());
+        holder.plantType.setText(produto.getTipo());
+        holder.plantDescription.setText(produto.getDescricao());
+        holder.img_plant.setImageResource(Integer.parseInt(String.valueOf(produto.getImagem())));
 
 
     }
@@ -56,17 +46,17 @@ public class AdapterProduto extends RecyclerView.Adapter<AdapterProduto.MyViewHo
     }
 
     static class MyViewHolder extends RecyclerView.ViewHolder{
-        ImageView img_plant, img_moister;
+
         TextView namePlants, plantType, plantDescription;
+        ImageView img_plant;
+
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            img_plant = itemView.findViewById(R.id.img_plant);
-            img_moister = itemView.findViewById(R.id.img_moister);
-
             namePlants = itemView.findViewById(R.id.namePlants);
             plantType = itemView.findViewById(R.id.plantType);
             plantDescription = itemView.findViewById(R.id.plantDescription);
+            img_plant = itemView.findViewById(R.id.img_plant);
         }
     }
 

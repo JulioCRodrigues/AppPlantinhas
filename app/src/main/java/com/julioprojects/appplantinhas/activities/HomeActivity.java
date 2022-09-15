@@ -11,7 +11,6 @@ import android.os.Bundle;
 import com.julioprojects.appplantinhas.R;
 import com.julioprojects.appplantinhas.model.AdapterProduto;
 import com.julioprojects.appplantinhas.model.Produto;
-import com.julioprojects.appplantinhas.model.Users;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,12 +18,9 @@ import java.util.List;
 
 public class HomeActivity extends AppCompatActivity {
 
+    private AdapterProduto adapterProduto;
     private List<Produto> produtoList = new ArrayList<>();
     private RecyclerView rvProdutos;
-    private AdapterProduto adapterProduto;
-
-
-
 
 
 
@@ -36,78 +32,90 @@ public class HomeActivity extends AppCompatActivity {
 
         rvProdutos = findViewById(R.id.rvProdutos);
 
-        carregarLista();
-        configRecyclerView();
 
+        carregaLista();
+        configRecyclerView();
 
 
     }
 
-    private void configRecyclerView() {
+    private void configRecyclerView(){
         rvProdutos.setLayoutManager(new LinearLayoutManager(this));
         rvProdutos.setHasFixedSize(true);
         adapterProduto = new AdapterProduto(produtoList);
         rvProdutos.setAdapter(adapterProduto);
 
+
+
     }
 
-     private void carregarLista() {
+    private void carregaLista(){
+
         Produto produto1 = new Produto();
-        produto1.setImg_plant(R.id.img_plant);
-        produto1.setImg_moister(R.id.img_moister);
-        produto1.setNamePlants("Mya");
-        produto1.setPlantType("Plant type");
-        produto1.setPlantDescription("Mya is a plant who likes sun\n and much water.");
+        produto1.setNome("Mya");
+        produto1.setTipo("Plant type");
+        produto1.setDescricao("Mya is a plant who likes sun and much water.");
+        produto1.setImagem(R.drawable.img_card);
 
 
-         Produto produto2 = new Produto();
-         produto2.setImg_plant(R.id.img_plant);
-         produto2.setImg_moister(R.id.img_moister);
-         produto2.setNamePlants("Mya");
-         produto2.setPlantType("Plant type");
-         produto2.setPlantDescription("Mya is a plant who likes sun\n and much water.");
+
+        Produto produto2 = new Produto();
+        produto2.setNome("Joe");
+        produto2.setTipo("Plant type");
+        produto2.setDescricao("Joe is a plant who likes sun and much water.");
+        produto2.setImagem(R.drawable.img_card2);
 
 
-         Produto produto3 = new Produto();
-         produto3.setImg_plant(R.id.img_plant);
-         produto3.setImg_moister(R.id.img_moister);
-         produto3.setNamePlants("Mya");
-         produto3.setPlantType("Plant type");
-         produto3.setPlantDescription("Mya is a plant who likes sun\n and much water.");
+        Produto produto3 = new Produto();
+        produto3.setNome("Mya");
+        produto3.setTipo("Plant type");
+        produto3.setDescricao("Mya is a plant who likes sun and much water.");
+        produto3.setImagem(R.drawable.img_card);
 
 
-         Produto produto4 = new Produto();
-         produto4.setImg_plant(R.id.img_plant);
-         produto4.setImg_moister(R.id.img_moister);
-         produto4.setNamePlants("Mya");
-         produto4.setPlantType("Plant type");
-         produto4.setPlantDescription("Mya is a plant who likes sun\n and much water.");
+
+        Produto produto4 = new Produto();
+        produto4.setNome("Joe");
+        produto4.setTipo("Plant type");
+        produto4.setDescricao("Joe is a plant who likes sun and much water.");
+        produto4.setImagem(R.drawable.img_card2);
 
 
-         Produto produto5 = new Produto();
-         produto5.setImg_plant(R.id.img_plant);
-         produto5.setImg_moister(R.id.img_moister);
-         produto5.setNamePlants("Mya");
-         produto5.setPlantType("Plant type");
-         produto5.setPlantDescription("Mya is a plant who likes sun\n and much water.");
+        Produto produto5 = new Produto();
+        produto5.setNome("Mya");
+        produto5.setTipo("Plant type");
+        produto5.setDescricao("Mya is a plant who likes sun and much water.");
+        produto5.setImagem(R.drawable.img_card);
 
 
-         Produto produto6 = new Produto();
-         produto6.setImg_plant(R.id.img_plant);
-         produto6.setImg_moister(R.id.img_moister);
-         produto6.setNamePlants("Mya");
-         produto6.setPlantType("Plant type");
-         produto6.setPlantDescription("Mya is a plant who likes sun\n and much water.");
+
+        Produto produto6 = new Produto();
+        produto6.setNome("Joe");
+        produto6.setTipo("Plant type");
+        produto6.setDescricao("Joe is a plant who likes sun and much water.");
+        produto6.setImagem(R.drawable.img_card2);
 
 
-         produtoList.add(produto1);
-         produtoList.add(produto2);
-         produtoList.add(produto3);
-         produtoList.add(produto4);
-         produtoList.add(produto5);
-         produtoList.add(produto6);
 
 
-     }
+
+
+
+
+
+
+        produtoList.add(produto1);
+        produtoList.add(produto2);
+        produtoList.add(produto3);
+        produtoList.add(produto4);
+        produtoList.add(produto5);
+        produtoList.add(produto6);
+
+
+
+
+    }
+
+
 
 }

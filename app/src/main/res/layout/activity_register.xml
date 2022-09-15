@@ -16,7 +16,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="120dp"
         android:fontFamily="@font/handvetica_neue"
-        android:text="@string/nome"
+        android:text="nome"
         android:textColor="@color/white"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,7 +28,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_menu_geral"
-        android:hint="@string/ex_julio_rodrigues"
+        android:hint="ex_julio_rodrigues"
         android:inputType="text"
         android:padding="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@
         android:layout_marginStart="25dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/handvetica_neue"
-        android:text="@string/email"
+        android:text="email"
         android:textColor="@color/white" />
 
 
@@ -53,7 +53,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_menu_geral"
-        android:hint="@string/ex_julio_teste_com_br"
+        android:hint="ex_julio_teste_com_br"
         android:inputType="textEmailAddress"
         android:padding="10dp" />
 
@@ -64,7 +64,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginTop="17dp"
         android:fontFamily="@font/handvetica_neue"
-        android:text="@string/senha"
+        android:text="senha"
         android:textColor="@color/white" />
 
 
@@ -75,12 +75,12 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="24dp"
         android:background="@drawable/bg_menu_geral"
-        android:hint="@string/ex_123456"
+        android:hint="ex_123456"
         android:inputType="textPassword"
         android:padding="10dp" />
 
     <ImageButton
-        android:contentDescription="@string/imagem_para_registrar"
+        android:contentDescription="imagem_para_registrar"
         android:id="@+id/imageRegister"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -97,7 +97,7 @@
         android:fontFamily="@font/handvetica_neue"
         android:layout_marginTop="8dp"
         android:layout_gravity="center"
-        android:text="@string/registrar"
+        android:text="registrar"
         android:textColor="@color/white" />
 
 </LinearLayout>

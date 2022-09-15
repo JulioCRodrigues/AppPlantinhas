@@ -23,7 +23,7 @@
             android:layout_height="188dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="-20dp"
-            android:scaleType="center"
+            android:scaleType="centerCrop"
             app:srcCompat="@drawable/img_card" />
 
         <TextView

@@ -2,51 +2,40 @@ package com.julioprojects.appplantinhas.model;
 
 public class Produto {
 
+    private String nome;
+    private String tipo;
+    private String descricao;
+    private int imagem;
 
-    private String namePlants;
-    private String plantType;
-    private String plantDescription;
-
-    private Integer img_plant;
-    private Integer img_moister;
-
-    public String getNamePlants() {
-        return namePlants;
+    public String getNome() {
+        return nome;
     }
 
-    public void setNamePlants(String namePlants) {
-        this.namePlants = namePlants;
+    public int getImagem() {
+        return imagem;
     }
 
-    public String getPlantType() {
-        return plantType;
+    public void setImagem(int imagem) {
+        this.imagem = imagem;
     }
 
-    public void setPlantType(String plantType) {
-        this.plantType = plantType;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public String getPlantDescription() {
-        return plantDescription;
+    public String getTipo() {
+        return tipo;
     }
 
-    public void setPlantDescription(String plantDescription) {
-        this.plantDescription = plantDescription;
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
     }
 
-    public Integer getImg_plant() {
-        return img_plant;
+    public String getDescricao() {
+        return descricao;
     }
 
-    public void setImg_plant(Integer img_plant) {
-        this.img_plant = img_plant;
-    }
-
-    public Integer getImg_moister() {
-        return img_moister;
-    }
-
-    public void setImg_moister(Integer img_moister) {
-        this.img_moister = img_moister;
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
     }
 }
