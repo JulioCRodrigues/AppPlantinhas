@@ -5,9 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 
+import com.google.android.material.bottomnavigation.BottomNavigationItemView;
 import com.julioprojects.appplantinhas.R;
 import com.julioprojects.appplantinhas.model.AdapterProduto;
 import com.julioprojects.appplantinhas.model.Produto;
@@ -21,6 +23,7 @@ public class HomeActivity extends AppCompatActivity {
     private AdapterProduto adapterProduto;
     private List<Produto> produtoList = new ArrayList<>();
     private RecyclerView rvProdutos;
+    private BottomNavigationItemView settings;
 
 
 
@@ -31,13 +34,24 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         rvProdutos = findViewById(R.id.rvProdutos);
+        settings = findViewById(R.id.item3);
 
 
         carregaLista();
         configRecyclerView();
 
 
+        settings.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), SettingsActivity.class);
+            startActivity(intent);
+        });
+
+
     }
+
+
+
+
 
     private void configRecyclerView(){
         rvProdutos.setLayoutManager(new LinearLayoutManager(this));

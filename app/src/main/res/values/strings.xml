@@ -5,5 +5,7 @@
     <string name="menu_search">My plants</string>
     <string name="menu_like">Settings</string>
     <string name="menu_profile">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
